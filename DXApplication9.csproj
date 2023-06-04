@@ -1,0 +1,247 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{411ADD37-8590-41D6-B8C3-806A6C865921}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DXApplication9</RootNamespace>
+    <AssemblyName>DXApplication9</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v21.2" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2" />
+    <Reference Include="DevExpress.Data.v21.2" />
+    <Reference Include="DevExpress.Utils.v21.2" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v21.2" />
+    <Reference Include="DevExpress.Printing.v21.2.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Báo cáo tổng kết môn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Báo cáo tổng kết môn.Designer.cs">
+      <DependentUpon>Báo cáo tổng kết môn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lập danh sách lớp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lập danh sách lớp.Designer.cs">
+      <DependentUpon>Lập danh sách lớp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhập bảng diểm môn học.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhập bảng diểm môn học.Designer.cs">
+      <DependentUpon>Nhập bảng diểm môn học.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thay đổi quy định.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thay đổi quy định.Designer.cs">
+      <DependentUpon>Thay đổi quy định.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thêm học kỳ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thêm học kỳ.Designer.cs">
+      <DependentUpon>Thêm học kỳ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thêm khối lớp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thêm khối lớp.Designer.cs">
+      <DependentUpon>Thêm khối lớp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thêm lớp mới.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thêm lớp mới.Designer.cs">
+      <DependentUpon>Thêm lớp mới.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thêm môn học.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thêm môn học.Designer.cs">
+      <DependentUpon>Thêm môn học.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tra cứu học sinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tra cứu học sinh.Designer.cs">
+      <DependentUpon>Tra cứu học sinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tổng kết học kì.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tổng kết học kì.Designer.cs">
+      <DependentUpon>Tổng kết học kì.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xóa học kì.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa học kì.Designer.cs">
+      <DependentUpon>Xóa học kì.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xóa hồ sơ học sinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa hồ sơ học sinh.Designer.cs">
+      <DependentUpon>Xóa hồ sơ học sinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xóa khối lớp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa khối lớp.Designer.cs">
+      <DependentUpon>Xóa khối lớp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xóa lớp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa lớp.Designer.cs">
+      <DependentUpon>Xóa lớp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xóa môn học.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xóa môn học.Designer.cs">
+      <DependentUpon>Xóa môn học.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Đăng nhập.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Đăng nhập.Designer.cs">
+      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tiếp nhận học sinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tiếp nhận học sinh.Designer.cs">
+      <DependentUpon>Tiếp nhận học sinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tạo tài khoản mới.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tạo tài khoản mới.Designer.cs">
+      <DependentUpon>Tạo tài khoản mới.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Báo cáo tổng kết môn.resx">
+      <DependentUpon>Báo cáo tổng kết môn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lập danh sách lớp.resx">
+      <DependentUpon>Lập danh sách lớp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhập bảng diểm môn học.resx">
+      <DependentUpon>Nhập bảng diểm môn học.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thay đổi quy định.resx">
+      <DependentUpon>Thay đổi quy định.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thêm học kỳ.resx">
+      <DependentUpon>Thêm học kỳ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thêm khối lớp.resx">
+      <DependentUpon>Thêm khối lớp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thêm lớp mới.resx">
+      <DependentUpon>Thêm lớp mới.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thêm môn học.resx">
+      <DependentUpon>Thêm môn học.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tra cứu học sinh.resx">
+      <DependentUpon>Tra cứu học sinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tổng kết học kì.resx">
+      <DependentUpon>Tổng kết học kì.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa học kì.resx">
+      <DependentUpon>Xóa học kì.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa hồ sơ học sinh.resx">
+      <DependentUpon>Xóa hồ sơ học sinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa khối lớp.resx">
+      <DependentUpon>Xóa khối lớp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa lớp.resx">
+      <DependentUpon>Xóa lớp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xóa môn học.resx">
+      <DependentUpon>Xóa môn học.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Đăng nhập.resx">
+      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tiếp nhận học sinh.resx">
+      <DependentUpon>Tiếp nhận học sinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tạo tài khoản mới.resx">
+      <DependentUpon>Tạo tài khoản mới.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
